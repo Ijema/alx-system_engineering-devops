@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./ -type f -empty -exec mkdir {} \
+find ./ -type f -empty -print -delete
